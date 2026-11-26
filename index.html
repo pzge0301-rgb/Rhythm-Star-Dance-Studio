@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>律動星舞蹈教室｜線上聊天</title>
+  <style>
+    body { margin: 0; font-family: system-ui, 'Microsoft JhengHei', sans-serif; background: #f6f8fb; color: #253047; }
+    main { max-width: 760px; margin: 12vh auto; padding: 24px; text-align: center; }
+    h1 { font-size: clamp(28px, 5vw, 42px); }
+    p { line-height: 1.8; }
+    .hint { color: #536276; }
+    df-messenger { --df-messenger-bot-message: #e8eefc; --df-messenger-button-titlebar-color: #3569b5; --df-messenger-chat-background-color: #ffffff; --df-messenger-font-color: #253047; --df-messenger-send-icon: #3569b5; --df-messenger-user-message: #d6e7ff; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>律動星舞蹈教室</h1>
+    <p>Hey!準備好跟著節奏一起舞動了嘛！</p>
+    <p class="hint">請點選右下角的聊天圖示，開始與我們的聊天機器人對話。</p>
+  </main>
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+  <df-messenger intent="WELCOME" chat-title="律動星舞蹈教室" e54af6bd-4723-410f-860d-1d7677e8afed" language-code="zh-tw"></df-messenger>
+</body>
+</html>
